@@ -1,18 +1,572 @@
+<!DOCTYPE HTML>
+<!--
+	Ms. Brunella D'Anzi
+-->
 <html>
-  <head><style href>a {text-decoration: none} </style>
-    <title>Movies &#2330;&#2354;&#2330;&#2367;&#2340;&#2381;&#2352;</title>
-    <link rel="icon" href="https://lh5.googleusercontent.com/-GB_x0rqjPk8/T-RFWJc0bjI/AAAAAAAAABw/HIsEaH36LAw/s200/sanjeev-007.png" type="image/png">
-    <base target="main">
-  </head>
-  <body bgcolor="#ffff9e">
-    <ul>
-      <li><a href="http://www.youtube.com/embed/5ZrSC3Au79I" title="01 July 2012">&#2407;&#2409;&#2348;&#2368; &#2408;&#2406;&#2406;&#2415; (13B 2009)</a></li>
-      <li><a href="http://www.youtube.com/embed/GeUsE7aQBg0" title="22 November 2015">&#2407;&#2411; &#2346;&#2366;&#2352;&#2381;&#2325; &#2319;&#2357;&#2375;&#2344;&#2381;&#2351;&#2370; &#2408;&#2406;&#2406;&#2411; (15 Park Avenue 2005)</a></li>
-      <li><a href="http://www.youtube.com/embed/1eA923Uea4A" title="February 2012, 10 July 2015">&#2407;&#2415;&#2408;&#2406; &#2408;&#2406;&#2406;&#2414; (1920 2008)</a></li>
-      <li><a href="http://www.youtube.com/embed/_KRICDdaO70" title="16 March 2018">&#2407;&#2415;&#2408;&#2407; &#2408;&#2406;&#2407;&#2414; (1921 2018)</a></li>
-      <li><a href="http://www.youtube.com/embed/vIFEZrO6AdU" title="April 2012, 9 July 2015">&#2407;&#2415;&#2410;&#2408; &#2319; &#2354;&#2357; &#2360;&#2381;&#2335;&#2379;&#2352;&#2368; &#2407;&#2415;&#2415;&#2410; (1942 A Love Story 1994)</a></li>
-      <li><a href="http://www.youtube.com/embed/ScCojMbbxU8" title="15 June 2019, 3 May 2021" style="color:red">&#2408; &#2360;&#2381;&#2335;&#2375;&#2335;&#2381;&#2360; &#2408;&#2406;&#2407;&#2410; (2 States 2014)</a></li>
-      <li><tt><a title="05 May 2019" style="color:red">&#2408;.&#2406; &#2408;&#2406;&#2407;&#2414; (2.0 2018)</a></tt></li>
-    </ul>
-  </body>
-</html>
+<head>
+	<title>Ms. Brunella D'Anzi</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- Style -->
+	<link rel="stylesheet" href="https://bdanzi.github.io/assets/css/main.css" />
+	<link rel="stylesheet" href="https://bdanzi.github.io/piano_app/style.css">
+	<link rel="stylesheet" href="https://bdanzi.github.io/duck/style.css" />
+	<link rel="stylesheet" href="https://bdanzi.github.io/codigotchi/style.css" />
+	<link rel="stylesheet" href="https://bdanzi.github.io/meteo/style.css" />
+	<noscript><link rel="stylesheet" href="https://bdanzi.github.io/assets/css/noscript.css" /></noscript>
+	<!-- Icon -->
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://bdanzi.github.io//images/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://bdanzi.github.io//images/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://bdanzi.github.io//images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://bdanzi.github.io//images/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://bdanzi.github.io//images/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://bdanzi.github.io//images/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://bdanzi.github.io//images/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://bdanzi.github.io//images/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="https://bdanzi.github.io//images/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="https://bdanzi.github.io//images/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="https://bdanzi.github.io//images/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="https://bdanzi.github.io//images/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="https://bdanzi.github.io//images/favicon-128.png" sizes="128x128" /> 
+	<!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+</head>
+<body class="light-mode is-preload" id="body">
+	
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+		
+		<!-- Wrapper -->
+		<div id="wrapper">
+			
+			<!-- Panel (Banner) -->
+			<section class="panel banner right color2" id="zero">
+				<div class="content span-4-75">
+					<h2 class="major">Hi, I am Ms. Brunella D'Anzi.<br />
+						Welcome to my website!<br />
+					</h2>
+					
+					
+					<p style= "text-align:justify">I am a Ph.D. student in experimental particle physics at <strong><a href="https://www.tifr.res.in" target="_blank">TIFR</a></strong> and a member of the <strong><a href="https://cms.cern/" target="_blank">CMS</a></strong> Collaboration at <strong><a href="https://home.cern/" target="_blank">CERN</a></strong>. My research interests include measuring the properties b-physics and searching for beyond-the-standard-model particles in LHC data with machine learning algorithms. I am also involved in the R&D of new gaseous detectors to be used at future colliders.</p>
+					
+					<ul class="actions">
+						
+						<li><a href="#first" class="button normal icon solid fa-book">Education</a></li>
+						<li><a href="#second" class="button normal icon solid fa-chart-bar">Talks and Publications</a></li>
+						<li><a href="https://spaneducation.blogspot.com" target="_blank" class="button normal icon solid fa-comment">Blog</a></li>
+						<li><a href="https://github.com/bdanzi/CV_ita/raw/gh-pages/cv_danzi_brunella.pdf" class="button normal icon solid fa-cog">CV(IT)</a></li>
+						
+					</ul>
+					<ul class="actions">
+						
+						<li><a href="#third" class="button normal icon solid fa-code">Teaching and Awards</a></li>
+						<li><a href="#fourth" class="button normal icon solid fa-camera-retro">Photos</a></li>
+						<li><a href="#fifth" class="button normal icon solid fa-paper-plane">Contacts</a></li>
+						<li><a href="https://github.com/bdanzi/CV/raw/gh-pages/cv_danzi_brunella.pdf" class="button normal icon solid fa-cog">CV(EN)</a></li>
+						
+						
+						
+					</ul>
+					
+					
+					<ul class="actions">
+						
+						<button type="button" class="button primary color2 circle icon solid fa-sun" id="dark_light" onclick="toggleDarkLight();changeImage();" name="dark_light" title="Dark/Light mode"></button>
+						<audio id="myAudio" preload="auto" loop="true"> 
+  							<source src="https://bdanzi.github.io/images/BeethovenAdagio.mp3" type="audio/mp3"> 
+						</audio>
+						<li><button type="button" class="button primary color2 circle icon solid fa-play" id="play_pause" onclick="togglePlayPause();changePause();" name="play_pause" title="Play/Pause mode"></button></li>
+						<li><a href="#first" class="button primary color2 circle icon solid fa-angle-right"  title="Next Panel">Next</a></li>
+						
+					</ul>
+				</div>
+				<div class="content span-1-75" data-position="50% 50%">
+					<img src="https://bdanzi.github.io/images/profilecartoon.png" alt="" width=100% height=100% />
+					<hr style='margin-bottom:1.0em'/>
+					<strong >Visitors in the WorldMap:</strong> 
+					<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5n1ajv60bqw&amp;m=6&amp;c=ff0000&amp;cr1=00fff6&amp;f=times_new_roman&amp;l=0&amp;s=170" async="async"></script>
+					<!-- &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<strong></strong>You are here</strong>-->
+					
+				</div>
+	
+	
+				
+			</section>
+			
+			<!-- Panel (Spotlight) -->
+			<section class="panel banner medium left color0" id="first">
+				<div class="content span-10">
+					
+					
+					<h2 class="major">Education <br /></h2>
+					
+					<ul class="alt">
+						<img src="https://bdanzi.github.io/images/logo-uniba.png" alt="Uniba logo" height="150" width="150">  <img src="https://bdanzi.github.io/images/Poliba_stemma.png" alt="Poliba logo" height="150" width="250"><img src="images/logo-INFN.png" alt="INFN logo" height="150" width="180">
+						<li> <strong>University of Bari, Apulia, Italy - M.Sc. in Nuclear Subnuclear and Astroparticle Physics </strong><br/> 
+							<strong>Thesis title:</strong> Search for double Higgs events produced via a vector boson fusion mechanism in the decay channel bb4l with the CMS experiment at the LHC<br/> 
+							<strong>Supervisor</strong>: Prof. Nicola De Filippis<br/>
+							<strong>Grade:</strong> 110 with honors <br/>
+							<strong>GPA:</strong> 4.0 <a href="https://drive.google.com/file/d/1V2sxudg9bGwW-S0WduNndtO60tdJLPUf/view?usp=sharing" target="_blank">[Transcripts]</a><br/>
+							<strong>Courses:</strong> Mathematical Analysis, Geometry, Introduction to the Mechanics and Analysis, Physics Laboratory, Mechanics, Fluids and Thermodynamics, Programming languages, English, Analytical Mechanics, Mathematical Methods of Physics, Electromagnetic waves and Optics, Statistical Physics, Quantum Mechanics Applications, Chemistry, Matter Physics, Electronics Laboratory, Fundamental of the Physics History, Introduction to Nuclear and Subnuclear Physics, Introduction to Particle Detectors, Laboratory of Modern Physics<br/>
+						</li>
+						<img src="https://bdanzi.github.io/images/logo-uniba.png" alt="Uniba logo" height="150" width="150"><img src="https://bdanzi.github.io/images/Poliba_stemma.png" alt="Poliba logo" height="150" width="250"><img src="images/logo-INFN.png" alt="INFN logo" height="150" width="180">
+						<li> <strong>University of Bari, Apulia, Italy - B.Sc. in Physics</strong><br/>
+							<strong>Thesis title:</strong> Two-state quantum systems<br/> <strong>Supervisor:</strong> Prof. Leonardo Angelini <br/>
+							<strong>Grade:</strong> 110 with honors <br/>
+							<strong>GPA:</strong> 4.0 
+							<a href="https://drive.google.com/file/d/13qAI0iYuqlVBQinnvZXv1eGDBE0ShnbM/view?usp=sharing" target="_blank">[Transcripts]</a><br/>
+							<strong>Courses:</strong> Probabilistic Methods of Physics, Kinetic Theory of Transport Phenomena, Condensed Matter Physics, Electronics Laboratory, Elementary Particle Physics, Fundamental Interaction Phenomenology, High Performance Computing in Physics, Quantum Field Theory, Interacting Quantum Fields, Physics Applications of group Theory, Statistical Data Analysis Laboratory, High Energy Astrophysics, Public Speaking and Scientific WritingNuclei and Particles Detection Laboratory, Mathematical Methods of Physics<br/>
+							
+							<div class="image span-1-75" data-position="80% 80%">
+								
+							</div></li>
+						</ul>
+					</br>
+						<div class="piano">
+							<h3 class="major"><img src="https://bdanzi.github.io/piano_app/images_piano/icon.png" alt="piano app logo" height="30" width="30">  Piano App @Boolean Coding Week 2022</h3>
+							<div class="piano-panel">
+								<img src="https://bdanzi.github.io/piano_app/images_piano/panel-logo.png" alt="">
+							</div>
+							<div class="piano-keys">
+								<div class="key key-white" id="do"></div>
+								<div class="key key-black" id="dodiesis"></div>
+								<div class="key key-white" id="re"></div>                
+								<div class="key key-black" id="rediesis"></div>
+								<div class="key key-white" id="mi"></div>
+								<div class="key key-white" id="fa"></div>
+								<div class="key key-black" id="fadiesis"></div>
+								<div class="key key-white" id="sol"></div>
+								<div class="key key-black" id="soldiesis"></div>
+								<div class="key key-white" id="la"></div>
+								<div class="key key-black" id="ladiesis"></div>
+								<div class="key key-white" id="si"></div>
+								<div class="key key-white" id="do5"></div>
+								<div class="key key-black" id="dodiesis5"></div>
+								<div class="key key-white" id="re5"></div>
+								<div class="key key-black" id="rediesis5"></div>
+								<div class="key key-white" id="mi5"></div>
+								<div class="key key-white" id="fa5"></div>
+								<div class="key key-black" id="fadiesis5"></div>
+								<div class="key key-white" id="sol5"></div>
+								<div class="key key-black" id="soldiesis5"></div>
+								<div class="key key-white" id="la5"></div>
+								<div class="key key-black" id="ladiesis5"></div>
+								<div class="key key-white" id="si5"></div>
+								<div class="key key-white" id="do6"></div>
+			
+							</div>
+						</div>
+					</br></br>
+						<div class="containerduck">
+							<!-- Intestazione -->
+							<h3 class="major"><img src="https://bdanzi.github.io/duck/images/icon.png" alt="duck app logo" height="30" width="30">  Speech Synthesizer App @Boolean Coding Week 2022</h3>
+							  <!-- Casella di testo -->
+							  <textarea class="speechduck" placeholder="Type here..."></textarea>					  
+							  <!-- Controlli -->
+							  <div class="controls">
+								  <!-- Paperella -->
+							  <figure class="duckfigure">
+								<img class="static-duck" src="https://bdanzi.github.io/duck/images/talking-duck-static.png" alt="static duck" height="190" width="210"/>
+								<img class="animated-duck" src="https://bdanzi.github.io/duck/images/talking-duck-animated.gif" alt="animated duck" height="190" width="210"/>
+							  </figure>
+								<!-- Play Button -->
+								<button type="button" class="buttonduck primary color2 circle icon solid fa-play">
+								  <img src="https://bdanzi.github.io/duck/images/play.png" alt="play" />
+								</button>
+								<!-- Controlli del tono -->
+								<div class="pitch-controls">
+								  <label class="labelduck">Pitch</label>
+								  <input class="inputduck" type="range" min="0.1" max="2" step="0.1" />
+								  <label class="labelduck_volume">Volume</label>
+								  <input class="inputduck_volume" type="range" min="0.1" max="2" step="0.1" />
+								  <label class="labelduck_rate">Rate</label>
+								  <input class="inputduck_rate" type="range" min="0.1" max="2" step="0.1" />
+								</div>
+							  </div> 
+						</div>
+					</br>
+					<h3 class="major"><img src="https://bdanzi.github.io/codigotchi/images/icon.png" alt="codigotchi app logo" height="30" width="30">  Codigotchi App @Boolean Coding Week 2022</h3>
+					<div class="container_codigotchi">
+							<!-- Codigotchi e schermo -->
+							<section class="codigotchi">
+								<img src="https://bdanzi.github.io/codigotchi/images/codigotchi.png" alt="">
+								<div id="screen-codigotchi" class="codigotchi-screen"></div>
+							</section>
+							<!-- Pannelli -->
+							<section id="panels-data-codigotchi" class="panels-codigotchi">
+								<!-- Pannello Microfono -->
+								<div class="panel-codigotchi panel-microphone-codigotchi">
+									<button type="button" id="microphone-codigotchi" class="button-codigotchi primary color2 circle icon solid fa-microphone">
+										<!-- <img src="codigotchi/images/mic.png" alt="microphone-codigotchi"> -->
+									</button>
+									<h2 class="codigotchi_h2">Turn on the microphone!</h2> 
+								</div>
+				
+								<!-- Pannello Comandi -->
+								<div class="panel-codigotchi panel-commands-codigotchi">                
+									<h2 class="codigotchi_h2">Interact with the vocal commands!</h2> 
+									<h3 class="codigotchi_h3">Supported Commands (in Italian only)</h3>                
+									<div class="commands-codigotchi">
+										<ul>
+											<li>Mangia (Eat)</li>
+											<li>Balla (Dance)</li>
+											<li>Dormi (Sleep)</li>
+										</ul>            
+									</div>
+								</div>            
+							</section>
+					</div>
+				</br>
+				<h3 class="major"><img src="https://bdanzi.github.io/meteo/images/icon.png" alt="meteo app logo" height="30" width="30">  Weather Forecast App @Boolean Coding Week 2022</h3>
+					<!-- Contenuto principale -->
+				<main class="js-loading">
+				<div class="container-meteo">
+				
+					  <!-- Informazioni meteo -->
+					  <div class="weather-info">
+						<!-- Icona meteo -->
+						<img class="weather-icon" src="" alt="Icona meteo" />
+						<!-- Location -->
+						<div class="weather-location">Loading...</div>
+						<!-- Temperatura -->
+						<div class="weather-temperature"></div>
+					  </div>
+					  <!-- Pannello dei consigli -->
+					  <div class="panel-meteo">
+						<p class="description-meteo"></p>
+						<h4 class="meteo-h4">Suggestion</h4>
+						<p class="suggestion-meteo"></p>
+					  </div>
+				  </div>
+				</main>
+				</br>
+						<h3 class="major">Other Educational Courses <br /></h3>
+						<ul>
+							<li> <h4>2021</h4> 
+								<img src="https://bdanzi.github.io/images/coursera-logo.png" alt="Coursera logo" height="150" width="250">  <img src="images/desy-logo.png" alt="DESY logo" height="150" width="150">  <img src="images/CERN-Logo.png" alt="CERN logo" height="150" width="120">
+								<ol>
+									<li><a href="https://www.coursera.org/account/accomplishments/verify/DRRN6452E8WB?utm_product=course" target="_blank">Machine Learning, University of Stanford</a></li>
+									<li><a href="https://coursera.org/share/d3351dcf2e3539df73df5983496b23d4" target="_blank">Particle Physics: an Introduction, University of Geneva</a></li>
+									<li><a href="https://www.coursera.org/account/accomplishments/certificate/83WJM6X4DY27" target="_blank"> Technical Writing, Moscow Institute of Physics and Technology</a></li>
+									<li><a href="https://www.coursera.org/account/accomplishments/certificate/MY4HQAEAYL9D" target="_blank"> Addressing Large Hadron Collider Challenges by Machine Learning, HSE University </a> </li>
+									<li><a href="https://www.coursera.org/account/accomplishments/certificate/QVDWWH3C8MXV" target="_blank">Programming Foundations with JavaScript, HTML and CSS, Duke University</a></li>
+									<li> <a href="https://drive.google.com/file/d/1to79c-kiCDjbMWiXxkL1zJY3JnbfbXGx/view" target="_blank"> CERN Tutorials: Introduction to Overleaf </a></li>
+									<li><a href="https://drive.google.com/file/d/1fxuisoVa6oLr7eA6mWlE-xZxAs_ifsk6/view" target="_blank"> QCD and Monte Carlo techniques, DESY </a></li>
+								</ol>
+							</li>
+							
+						</ul>
+						<h3 class="major">High Energy Physics Schools <br /></h3>
+						<ul>
+							<li> <h4>2022</h4>
+								<ol>
+									<img src="https://bdanzi.github.io/images/CMS-logo.png" alt="CMS logo" height="150" width="150">
+									<li><a href="https://lpc.fnal.gov/programs/schools-workshops/cmsdas.shtml" target="_blank">CMS Data Analysis School (CMSDAS) 2022 </a></li>
+								</ol>
+								<li> <h4>2020-2021</h4>
+									<ol>
+										<img src="images/shine-logo.png" alt="SHINE logo" height="150" width="150">    <img src="images/Escape-logo.png" alt="ESCAPE logo" height="150" width="150">  <img src="images/Terascale-logo.gif" alt="Terascale logo" height="150" width="150">
+										<li> <a href="https://drive.google.com/file/d/1Ui4phtxuFPd-trfQp6jCmL4qZOgEJvlf/view?usp=sharing" target="_blank">Terascale Monte Carlo School: PB TMDs with CASCADE</a></li>
+										<li><a href="https://drive.google.com/file/d/1D9BjE1nlL8UmRmZ3HQNqC6Cq1OxK0zB-/view?usp=sharing" target="_blank">ESCAPE Summer School on Data Science for Astronomy, Astroparticle and Particle Physics </a></li>
+										<li> <a href="https://drive.google.com/file/d/11AAS10GLKvA5oR2oZmcjLj1YBwBevQue/view?usp=sharing" target="_blank">2nd Terascale School of Machine Learning</a></li>
+										<li><a href="https://indico.cern.ch/event/964916/overview" target="_blank">SHINE Autumn School: Detectors and Data Processing</a></li>
+										<li> <a href="https://indico.cern.ch/event/963826/" target="_blank">SHINE Autumn School: Physics and Facility</a></li>
+										<li><a href="https://indico.desy.de/event/26403/" target="_blank">Terascale Summer School 2020,DESY</a></li>
+										<li><a href="https://indico.desy.de/event/25594/" target="_blank">PHYSTAT, Online Reduced Terascale Statistics School 2020</a></li>
+									</ol>
+									
+								</li>
+								
+							</ul>
+							<h3 class="major">Skills</h3>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Spoken Languages</th>
+											<th>Programming Languages</th>
+											<th>Scientific Tools</th>
+											<th>Markup Languages and Database</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Italian (native)</td>
+											<td>C/C++</td>
+											<td>ROOT/ROOTFit</td>
+											<td>MySQL</td>	
+											
+											
+										</tr>
+										<tr>
+											<td>English (good)</td>
+											<td>Python</td>
+											<td>Tensorflow</td>
+											<td>HTML/HTML5</td>
+										</tr>
+										<tr>
+											<td>French (basic)</td>
+											<td>Bash</td>
+											<td>Scikit-learn</td>
+											<td>CSS</td>
+										</tr>
+										<tr>
+											<td>Spanish (basic)</td>
+											<td>Fortran</td>
+											<td>Git</td>
+											<td>JavaScript</td>
+										</tr>
+									</tbody>
+									
+								</table>
+							</div>
+
+							
+							<!-- <p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=bdanzi&amp;hide=stars&amp;count_private=true&amp;show_icons=true&amp;theme=jolly" alt="Brunella D'Anzi’s GitHub stats" /></a></p>
+							<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bdanzi&amp;hide=jupyter%20notebook&amp;langs_count=5&amp;theme=jolly" alt="Top Langs" /></a></p>
+							<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=@bdanzi&amp;theme=jolly" alt="Brunella D'Anzi’s wakatime stats" /></a></p> -->
+							<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=E033FF&height=180&section=header&text=Brunella D'Anzi&fontSize=25&fontColor=6D077F&animation=twinkling&fontAlignY=35"/>
+							
+							<div align="center"> 
+								<p align="centre"><b>📊 GitHub Stats</b></p> 
+								<img width="49%" height="auto" src="https://github-readme-streak-stats.herokuapp.com?user=bdanzi&theme=jolly&hide_border=true&date_format=j%20M%5B%20Y%5D"/> 
+								<img width="41%" height="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bdanzi&layout=compact&hide=jupyter\%20notebook&theme=jolly&hide_border=true" />
+								<img width="49%" height="auto" src="https://github-readme-stats.vercel.app/api?username=bdanzi&hide=stars&count_private=true&show_icons=true&theme=jolly" />
+								<img width="41%" height="auto" src="https://github-readme-stats.vercel.app/api/wakatime?username=@bdanzi&&langs_count=5&v=2&theme=jolly" />
+							</div>
+							<div align="center">
+								<p align="centre"><b>✍️ Random Dev Quote</b></p>
+								<img width=90% src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+								<!-- <p align="centre"><b>😂 Random Dev Meme</b></p>
+								<img width=90% src="https://random-memer.herokuapp.com/" width="512px"/>
+								<p align="centre"><b>Visitors Count</b></p>  
+								<p align="center"><img align="center" src="https://profile-counter.glitch.me/{bdanzi}/count.svg" /></p>  
+							 -->
+								<!-- FOOTER -->
+								 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=E033FF&height=120&section=footer"/>
+							</div>
+								</br>
+							<ul class="actions">
+								<button type="button" class="button primary color2 circle icon solid fa-sun" id="dark_light_1" onclick="toggleDarkLight();changeImage();" name="dark_light" title="Dark/Light mode"></button>
+								<li><button type="button" class="button primary color2 circle icon solid fa-play" id="play_pause_1" onclick="togglePlayPause();changePause();" name="play_pause" title="Play/Pause mode"></button></li>
+								<li><a href="#zero" class="button primary color2 circle icon solid fa-angle-left" title="Previous Panel">Before</a></li>
+								<li><a href="#second" class="button primary color2 circle icon solid fa-angle-right" title="Next Panel">Next</a></li>
+								
+							</ul>	
+						</div>
+						
+					</section>
+					
+					<!-- Panel -->
+					<section class="panel banner medium color2" id="second">
+						<div class="content span-10">
+							<h2 class="major">Talks and Publications</h2>
+							<h3 class="major">Talks</h3>
+							<ul>
+								<li> <h4>2022</h4>
+									<ol>
+										<li><strong>15th Pisa Meeting  on Advanced Detectors Edition 2022, Poster session -- Speaker </strong></br><strong> (27th May 2022) </strong></br><a href="https://agenda.infn.it/event/22092/contributions/166630/" target="_blank"> Particle identification with the cluster counting technique for the IDEA drift chamber</a></li>
+										<li><strong>Talk in HIG@CMS_Italia Workshop -- Speaker </strong></br><strong> (12th May 2022) </strong></br><a href="https://indico.cern.ch/event/1137095/" target="_blank"> Double Higgs bbmumu analysis</a></li>
+										<li><strong>Talk in Learning to Discover Conference -- Speaker </strong></br><strong> (28th April 2022) </strong></br><a href="https://indico.ijclab.in2p3.fr/event/5999/timetable/" target="_blank"> Looking for rare di-Higgs events at the LHC with Machine (Deep) Learning techniques</a></li>
+										<li><strong>Talk in Muon Tracking POG Meeting -- Speaker </strong></br><strong> (11th April 2022) </strong></br><a href="https://indico.cern.ch/event/1148914/?note=193823" target="_blank">Update of the Muon efficiency algorithm via Tag and Probe techniques </a></li>
+										<li><strong>Meeting within INFN, IHEP and Jilin University -- Speaker </strong></br><strong> (17th March 2022) </strong></br><a href="https://indico.ihep.ac.cn/event/16376/" target="_blank">Update of the cluster counting algorithm and new results </a></li>
+										<li><strong>Meeting within INFN, IHEP and Jilin University -- Speaker </strong></br><strong> (18th February 2022) </strong></br><a href="https://indico.ihep.ac.cn/event/15780/" target="_blank">Cluster counting algorithm and the results of the beam test analysis</a></li>
+									</ol>
+								</li>
+								<li> <h4>2021</h4>
+									<ol>
+										<li><strong>Second ML_INFN hackathon - Starting level, Hackathon introduction and Tutor -- Speaker</strong></br><strong> (15th December 2021) </strong></br><a href="https://agenda.infn.it/event/28565/sessions/21130/#20211215" target="_blank">Signal/background discrimination for the VBF Higgs four lepton decay channel with the CMS experiment using Machine Learning classification techniques</a></li>
+										<li><strong>2021 ACAT Workshop, Lightning talks session for best posters -- Speaker</strong><strong> </br> (3rd December 2021) </strong></br><a href="https://indico.cern.ch/event/855454/contributions/4596351/" target="_blank"> Signal to background discrimination for the production of double Higgs boson events via vector boson fusion mechanism in the decay channel with four charged leptons and two b-jets in the final state at the LHC experiment</a></li>
+										<li><strong>2021 ACAT Workshop, Poster session -- Speaker</strong></br><strong> (1st December 2021) </strong></br><a href="https://indico.cern.ch/event/855454/contributions/4596351/" target="_blank"> Signal to background discrimination for the production of double Higgs boson events via vector boson fusion mechanism in the decay channel with four charged leptons and two b-jets in the final state at the LHC experiment</a></li>
+										<li><strong>ML_INFN research group, Review use-case -- Speaker</strong></br><strong> (15th November 2021) </strong></br><a href="https://agenda.infn.it/event/29006/" target="_blank">Signal/background discrimination for the VBF Higgs four lepton decay channel with the CMS experiment,</a></li>
+										<li><strong>ML_INFN research group, Use-case presentation -- Speaker</strong></br><strong> (26th April 2021) </strong></br><a href="https://agenda.infn.it/event/26762/" target="_blank">Signal/background discrimination for the VBF Higgs four lepton decay channel with the CMS experiment using Machine Learning classification techniques</a></li>
+										<li><strong>Elementary Particle Physics course , Seminar to first year Master's student in Physics at University of Bari -- Speaker</strong></br><strong> (15th March 2021) </strong></br><a href="https://drive.google.com/file/d/1vLpUf22gdKJ_-qK3jlUL1mLvEmLz7I7M/view?usp=sharing" target="_blank">The Top Quark Discovery at the Fermilab Collider</a></li>
+										
+										
+									</ol>
+								</li>
+							</ul>
+							<h3 class="major">Publications</h3>
+							<ul>
+								<li> <h4>2021</h4>
+									<ol>
+										<li><strong>High Energy Physics - Phenomenology</strong></br><a href="https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-022-09997-1" target="_blank">Azimuthal correlations of high transverse momentum jets at next-to-leading order in the parton branching method</a></li>
+										<li><strong>INFN Confluence</strong></br><a href="https://confluence.infn.it/pages/viewpage.action?pageId=53906361" target="_blank">Signal/background discrimination for the VBF Higgs four lepton decay channel with the CMS experiment using Machine Learning classification techniques</a></li>
+										
+										
+									</ol>
+								</li>
+							</ul>
+							
+							<ul class="icons">
+								See also:   <li><a href="https://orcid.org/0000-0002-9361-3142" target="_blank" style="text-decoration: none !important;"><span class="label"><i class="ai ai-orcid"></i></span></a></li>
+								<li><a href="https://scholar.google.com/citations?user=hes0tYMAAAAJ&hl" style="text-decoration: none !important;" target="_blank"> <span class="label"><i class="ai ai-google-scholar"></i></span></a></li>
+								<li><a href="https://inspirehep.net/authors/1969305" style="text-decoration: none !important;" target="_blank"><span class="label"><i class="ai ai-inspire"></i></span></a></li>
+								<li><a href="https://arxiv.org/a/danzi_b_1.html" style="text-decoration: none !important;" target="_blank"><span class="label"><i class="ai ai-arxiv"></i></span></a></li>
+								<li><a href="https://publons.com/researcher/4813271/brunella-danzi/" style="text-decoration: none !important;" target="_blank"><span class="label"><i class="ai ai-publons"></i></span></a></li>
+							</ul>
+							<ul class="actions">
+								<button type="button" class="button primary color2 circle icon solid fa-sun" id="dark_light_2" onclick="toggleDarkLight();changeImage();" name="dark_light" title="Dark/Light mode"></button>
+								<li><button type="button" class="button primary color2 circle icon solid fa-play" id="play_pause_2" onclick="togglePlayPause();changePause();" name="play_pause" title="Play/Pause mode"></button></li>
+								<li><a href="#first" class="button primary color2 circle icon solid fa-angle-left" title="Previous Panel">Before</a></li>
+								<li><a href="#third" class="button primary color2 circle icon solid fa-angle-right" title="Next Panel">Next</a></li>
+							</ul>
+							
+						</div>
+						
+					</section>
+					
+					<!-- Panel (Spotlight) -->
+					<section class="panel banner medium left color0" id="third">
+						<div class="content span-8">
+							<h2 class="major">Teaching and Awards</h2>
+							<blockquote>It is no good to try to stop knowledge from going forward. Ignorance is never better than knowledge.</br> -- Enrico Fermi</blockquote>
+							<h3 class="major">Teaching</h3> 
+							<ul>
+								<li> <h4>2022</h4>
+									<ol>
+										<li><strong>Didactic tutor and Assistant Professor for the "Physics and Laboratory" course at University of Bari (250 hours) </strong> </br> Department of Biosciences, Biopharmaceuticals and Biotechnology </li>
+										
+										
+									</ol>
+								</li>
+								<li> <h4>2021</h4>
+									<ol>
+										<li><strong>Didactic tutor and Assistant Professor for the "Physics" course at University of Bari (250 hours) </strong> </br> Department of Biosciences, Biopharmaceuticals and Biotechnology </li>
+										
+										
+									</ol>
+								</li>
+							</ul>
+							<h3 class="major">Highlights and Awards</h3>
+							<ol>
+								<img src="images/dqm_shifter.png" alt="Data Quality Monitoring (DQM) Online shifter for the CMS experiment" height="400" width="400"/></br>	
+								<li><a href="https://indico.cern.ch/event/645164/attachments/1471601/2279809/tutorial-2017-08June-V2.pdf" target="_blank">Data Quality Monitoring shifts for CMS experiment (15th April - 18th May 2022)</a></li></br>
+								<img src="images/cms-data-school.jpeg" alt="CMS Data Analysis School 3rd Prize Team" height="400" width="400"/></br>	
+								<li><a href="https://indico.cern.ch/event/1088671/" target="_blank">CMS Data Analysis School 3rd Prize (4th - 15th January 2022)</a></li></br>
+								<img src="images/desk_photo.jpeg" alt="10 University of Bari Scholarships for emeritus Graduate students" height="400" width="400"/></br>	
+								<li><a href="https://dottorato.fisica.uniba.it" target="_blank">University of Bari Ph.D. Fellowship and INFN Membership Association (October 2021 - Present)</a></li></br>
+								<img src="images/ACAT2021.png" alt="ACAT 2021 prizes: dish and fork from Korean colleagues" height="400" width="400"/></br>
+								<li><a href="https://indico.cern.ch/event/855454/contributions/4596351/" target="_blank">Best Poster Awards ACAT 2021 (29th November 2021 - 3rd December 2021)</a></li></br>
+								<img src="images/csn1-fellowship.jpg" alt="INFN Scholarship for 12 emeritus particle physics italian students" height="400" width="400"/></br>
+								<li><a href="https://web.infn.it/csn1/index.php/en/" target="_blank">CSN1 INFN Fellowship (26th July 2021 - 3rd November 2021)</a></li></br>
+								<img src="images/ecomap.jpeg" alt="ECOMAP Scholarship for emeritus italian students" height="400" width="400"/></br>
+								<li><a href="https://www.ecomap.it/prestazione.asp?idPR=14" target="_blank">ECOMAP Scholarship (2016 - 2020)</a></li></br>
+								<img src="images/book.jpg" alt="Uniba Book Scholarship" height="400" width="400"/></br>
+								<li><a href="https://www.uniba.it/studenti/segreterie-studenti/amministrative/buoni-libro-per-studenti-meritevoli" target="_blank">University of Bari Scholarship (2016 - 2020)</a></li></br>
+							</ol>		 
+							
+							<ul class="actions">
+								<button type="button" class="button primary color2 circle icon solid fa-sun" id="dark_light_3" onclick="toggleDarkLight();changeImage();" name="dark_light" title="Dark/Light mode"></button>
+								<li><button type="button" class="button primary color2 circle icon solid fa-play" id="play_pause_3" onclick="togglePlayPause();changePause();" name="play_pause" title="Play/Pause mode"></button></li>
+								<li><a href="#second" class="button primary color2 circle icon solid fa-angle-left" title="Previous Panel">Before</a></li>
+								<li><a href="#fourth" class="button primary color2 circle icon solid fa-angle-right" title="Next Panel">Next</a></li>
+							</ul>
+						</div>
+						
+					</section>
+					
+					<!-- Panel -->
+					<section class="panel" id="fourth">
+						<div class="intro color2">
+							<br/>
+							<h2 class="major">Photos</h2>
+							<pre><code>Person me = new Person();
+
+while (me.isAlive()) {
+me.WakeUp();
+me.Smile();
+me.EatPizza();
+me.Code();
+me.Sleep();
+}
+							</code></pre>
+							
+							<ul class="actions">
+								<button type="button" class="button primary color2 circle icon solid fa-sun" id="dark_light_4" onclick="toggleDarkLight();changeImage();" name="dark_light" title="Dark/Light mode"></button>		 
+								<li><button type="button" class="button primary color2 circle icon solid fa-play" id="play_pause_4" onclick="togglePlayPause();changePause();" name="play_pause" title="Play/Pause mode"></button></li>
+								<li><a href="#third" class="button primary color2 circle icon solid fa-angle-left">Before</a></li>
+								<li><a href="#fifth" class="button primary color2 circle icon solid fa-angle-right">Next</a></li>
+							</ul>
+						</div>
+						<div class="gallery">
+							<div class="group span-3">
+								<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+							</div>
+							<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+							<div class="group span-4-5">
+								<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
+							</div>
+							<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+							
+						</div>
+					</section>
+					
+					<!-- Panel -->
+					<section class="panel color0" id="fifth">
+						<div class="intro color0">
+							<h2 class="major">Contacts</h2>
+							<div class="contact-method">
+								<span class="icon solid alt fa-home"> <strong> Address </strong></span> <br />
+								<span>
+									Dipartimento di Fisica "M. Merlin" <br />
+									INFN, Sezione di Bari		 <br />
+									Via Orabona, 4<br />
+									70125, Bari<br />
+									Italy</span>
+									
+								</div>
+								<ul class="icons">
+									
+									<li><a href="https://www.facebook.com/brunella.danzi" class="icon brands fa-facebook-f" target="_blank"> <span class="label"></span></a></li>
+									<li><a href="https://www.instagram.com/brunelladanzi/" class="icon brands fa-instagram" target="_blank">  <span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/bdanzi" class="icon brands fa-github" target="_blank">  <span class="label"></span></a></li>
+									<li><a href="mailto:brunella.d'anzi@cern.ch" class="icon solid alt fa-envelope" target="_blank"><span class="label">Mail</span></a></li>
+									<li><a href="https://www.linkedin.com/in/brunella-d-anzi/" class="icon brands alt fa-linkedin-in" target="_blank"><span class="label"></a></span></li>	
+									<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-FMOUBm8uV2bPnvhr--zP9SeBLiDVGgwnNi8yRJnp4t3nGQ/viewform?usp=pp_url&entry.2130936803=You+should+change...&entry.654544717=You+can+take+care+of...&entry.465546742=You+could+improve+in...&entry.1798462901=I+admire+you+because..." class="icon solid alt fa-comment" target="_blank"><span class="label"></a></span></a></li>
+								</ul>
+								
+								<!-- End of WebFreeCounter Code -->
+								
+								<ul class="actions">
+									<button type="button" class="button primary color2 circle icon solid fa-sun" id="dark_light_5" onclick="toggleDarkLight();changeImage();" name="dark_light" title="Dark/Light mode"></button>
+									<li><button type="button" class="button primary color2 circle icon solid fa-play" id="play_pause_5" onclick="togglePlayPause();changePause();" name="play_pause" title="Play/Pause mode"></button></li>
+									<li><a href="#zero" class="button primary color2 circle icon solid fa-angle-left" title="Return to the First Panel">About</a></li>
+								</ul>
+								
+							</div>
+							
+						</section>
+						
+						
+						<!-- Copyright -->
+						<div class="copyright">&copy; 2022 Brunella D'Anzi . Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. </div>
+						
+					</div>
+					
+				</div>
+				
+				<!-- Logica JS -->
+				<script src="https://bdanzi.github.io/codigotchi/script.js"></script>
+				<script src="https://bdanzi.github.io/duck/script.js"></script>
+				<script src="https://bdanzi.github.io/meteo/script.js"></script>
+				<script src="https://bdanzi.github.io/piano_app/script.js"></script>
+				<script src="https://bdanzi.github.io/assets/js/jquery.min.js"></script>
+				<script src="https://bdanzi.github.io/assets/js/browser.min.js"></script>
+				<script src="https://bdanzi.github.io/assets/js/breakpoints.min.js"></script>
+				<script src="https://bdanzi.github.io/assets/js/main.js"></script>
+				<script src="https://bdanzi.github.io/assets/js/script.js"></script>
+				<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+				<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+				
+				
+			</body>
+			</html>
