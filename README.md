@@ -5,7 +5,7 @@ Previously, things used to get published at [test2.spaneducation.org](https://ww
 ----
 There are multiple files and some of them are explained here:  
 [404.md](404.md "Page not found error and forward.") : file to forward non existing pages.  
-[CNAME-old](CNAME-old "CNAME for domain names.") : When we want to use a personal domain name, update this file and remove old from filename.  
+[CNAME](CNAME "CNAME for domain names.") : When we want to use a personal domain name, update this file and remove old from filename.  
 [README.md](README.md "Readme file for documentation") : README file which have details about this folder and updated on 16 March 2023  
 [contact.html](contact.html "Testing comment box.") : Testing a comment box, not successful yet.  
 [index.html](index.html) : Single page text, just for testing.  
